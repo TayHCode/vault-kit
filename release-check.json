@@ -1,0 +1,15 @@
+{
+  "quickstart": [
+    {
+      "file": "README.md",
+      "line": 15,
+      "argv": ["python3", "vault_kit.py", "--username", "", "--transcripts", "examples/transcripts", "--output", "./QuickstartVault"]
+    }
+  ],
+  "checks": [
+    {
+      "argv": ["python3", "-m", "unittest", "discover", "-s", "tests"],
+      "role": "tests"
+    }
+  ]
+}
