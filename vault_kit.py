@@ -165,7 +165,6 @@ def main():
 
 
 def build_from_files(files, output, username):
-    # Reuse the same importer for Claude and Codex files without staging copies.
     root = Path(output).expanduser().resolve()
     root.mkdir(parents=True, exist_ok=True)
     projects, sessions = {}, []
